@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Distro Helpdesk
+    url: https://github.com/asia-innovations/distro/issues
+    about: Use the issue templates to report bugs, request features, or ask questions.
