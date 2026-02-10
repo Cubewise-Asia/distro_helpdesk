@@ -2,7 +2,35 @@
 
 All notable changes for **Distro** releases and this helpdesk are recorded here.
 
-## [4.5.2] - Latest
+## [4.5.3] - latest
+### New Features
+* **Performance Boost:** Significantly improved the performance for **replacing formulas** during the merge process.
+* **UX Enhancements:** * Added **free-text input** in the asset filter for more flexible searching. (#374)
+    * Expanded **email body length** limits to support larger notification contents. (#359)
+* **Build Improvements:** Upgraded frontend runtime to **Node 22** for faster and more modern builds. (#331)
+
+### Bug Fixes
+* **Database & Migration:**
+    * Fixed **MS SQL Server** compatibility issues regarding `datetime` formats and `UNIQUE` constraints. (#340, #343)
+    * Resolved database migration errors specifically affecting MS SQL environments.
+* **System Stability:**
+    * Fixed a critical bug where **bursting** could not be performed. (#345)
+    * Resolved "Operation Timed Out" issues during distro execution. (#345)
+    * Improved file saving stability and fixed scanning document issues. (#361)
+    * Fixed service initialization order to prevent startup failures in certain environments. (#339)
+* **API & Connectivity:**
+    * Fixed API endpoint mismatches caused by incorrect trailing slashes. (#337)
+    * Resolved email sending failures by updating field requirements in basic authentication. (#349)
+    * Fixed an issue where ZIP files could not be renamed during export. (#363)
+* **General:**
+    * Fixed UI translation errors. (#375)
+    * Cleaned up unused third-party libraries and removed redundant log messages from `ProgramData`. (#348, #359)
+
+### Documentation
+* Added detailed documentation for Distro features and usage rules.
+* Updated incorrect README rules regarding private and public access. (#358)
+
+## [4.5.2] - 2025-11-24
 ### Added
 - SMTP OAuth support.
 - Key Vault integration for client secrets.
