@@ -1,39 +1,42 @@
 ---
-name: "\U0001F41E Bug Report"
+name: "🐞 Bug Report"
 about: Report a problem or unexpected behavior in Distro
 title: "[Bug] "
 labels: ["bug"]
 assignees: []
 ---
 
-## \U0001F41E Description
+## 🐞 Description
 Clear, concise summary of the issue.
 
-## \U0001F4CC Steps to Reproduce
+## 📌 Steps to Reproduce
 1. 
 2. 
 3. 
 
-## \u2705 Expected Behavior
+## ✅ Expected Behavior
 What should have happened?
 
-## \u274c Actual Behavior
+## ❌ Actual Behavior
 What happened instead?
 
-## \U0001F5BC Screenshots / Logs
-Attach screenshots or relevant log snippets.
+## 🖼️ Screenshots / Logs
+Attach screenshots or relevant log snippets. For container deployments the application log is at `data/log/cubewise_distro.log`.
 
-## \U0001F9E9 Environment
+## 🧩 Environment
 - Distro Version:
+- Deployment method (Windows installer / Container - Podman·Docker):
+- Source type (TM1Web / UX / PAW / NextGen):
+- Export / Output type (Excel / PowerPoint / Word):
 - TM1 / PA Version:
 - Operating System (Windows / Linux):
 - Browser (if UI-related):
 
-## \U0001F4C8 Impact Level
+## 📈 Impact Level
 - [ ] Blocking
 - [ ] High
 - [ ] Medium
 - [ ] Low
 
-## \U0001F4CE Additional Context
+## 📎 Additional Context
 Anything else helpful?

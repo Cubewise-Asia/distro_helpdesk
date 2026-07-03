@@ -1,13 +1,13 @@
 # <img width="76" height="76" alt="image" src="https://github.com/user-attachments/assets/411290d4-be44-48ec-b46a-6baf4625e330" /> Distro Helpdesk
 
-This repository is the public helpdesk for **Distro**—a distribution engine for TM1Web, UX, and PAW reports. Use it to report bugs, request enhancements or wishes, and ask questions about the product.
+This repository is the public helpdesk for **Distro**—a distribution engine for TM1Web, UX, PAW, and Apliqo NextGen reports. Use it to report bugs, request enhancements or wishes, and ask questions about the product.
 
 ---
 
 ## What is Distro?
 <img width="732" height="197" alt="image" src="https://github.com/user-attachments/assets/57194ac8-7ea5-447b-bb89-42d7c46c749b" />
 
-Distro enables targeted export and delivery of TM1Web, UX, and PAW reports:
+Distro enables targeted export and delivery of TM1Web, UX, PAW, and Apliqo NextGen reports:
 - Export reports by dimension to specific audiences.
 - Choose flexible distribution methods to match business workflows.
 - Streamline report management and integration.
@@ -26,8 +26,9 @@ See `CONTRIBUTING.md` and `SUPPORT.md` for more guidance.
 
 ## Resources
 - **Product change log:** `CHANGELOG.md`
-- **Downloads:** Available on the Cubewise forum.
-- **Documentation:** See product docs or help articles (PowerConnect docs linked from the product).
+- **Troubleshooting / FAQ:** See [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md) for common installation and export problems.
+- **Product page & downloads:** [Cubewise Distro on code.cubewise.com](https://code.cubewise.com/software/innovation-labs/overview/).
+- **Documentation:** Detailed installation, configuration, and admin guides are provided with your Distro deployment package.
 
 ---
 
